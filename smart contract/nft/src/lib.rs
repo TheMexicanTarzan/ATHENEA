@@ -10,7 +10,7 @@ use nft_io::*;
 
 #[derive(Debug, Default)]
 pub struct Nft {
-    pub owner_by_id: HashMap<TokenId, ActorId>,    //<<<<<<----------------------------------------------------------- AQUI ESTA EL PUTA METADATA
+    pub owner_by_id: HashMap<TokenId, ActorId>,    //<<<<
     pub token_approvals: HashMap<TokenId, ActorId>,
     pub token_metadata_by_id: HashMap<TokenId, TokenMetadata>,
     pub tokens_for_owner: HashMap<ActorId, HashSet<TokenId>>,
